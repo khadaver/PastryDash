@@ -67,3 +67,6 @@ main div {
 #pastries {
     margin-bottom: 0px;
 }
+#learn-more:hover {
+    background-color: #588696;
+}
