@@ -35,7 +35,8 @@ nav a:hover::after {
     left:calc(50% - 10%);
     bottom:-5px;
 }
-main {
+.section {
+    height: 500px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
@@ -49,15 +50,15 @@ main {
     padding: 10px 10px 10px 10px;
     margin: 0px 0px 0px 0px;
 }
-#main-img {
+#home-img {
     display: inline;
-    height: 400px;
-    margin: 50px 0px 0px 100px;
+    max-width: 50%;
+    margin: 50px 20px 20px 100px;
 }
-main div {
+.text {
     display: inline;
 }
-#text {
+#main-text {
     display: flex;
     flex-flow: column nowrap;
     font-size: 35px;
@@ -69,4 +70,7 @@ main div {
 }
 #learn-more:hover {
     background-color: #588696;
+}
+#company-text {
+    width: 400px;
 }
