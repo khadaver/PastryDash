@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: #6796A3;
-    text-shadow: .2px .2px 2px #6D98A5;
+    /* text-shadow: .2px .2px 2px #6D98A5; */
     background-color: #ECF4F5;
     margin: ;
 }
@@ -42,6 +42,17 @@ nav a:hover::after {
     flex-flow: row nowrap;
     justify-content: space-around;
 }
+#menu {
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 20px 0px 20px 75px;
+}
+#menutitle {
+    margin: 100px 100% 0px 75px;
+}
+h2 {
+    font-size: 35px;
+}
 #learn-more {
     display: inline;
     color: white;
@@ -74,4 +85,11 @@ nav a:hover::after {
 }
 #company-text {
     width: 400px;
+}
+.macaron {
+    width: 140px;
+}
+.item {
+    display: flex;
+    flex-flow: row nowrap;
 }
